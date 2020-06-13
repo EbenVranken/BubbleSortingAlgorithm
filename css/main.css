@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101820;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    width: 100%;
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input[type=number], button {
+    margin: 1vw;
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 30px;
+    border: 1.5px solid white;
+    background-color: white;
+    transition: 400ms;
+}
+
+.input button:hover {
+    color: white;
+    background-color: #101820;
+    cursor: pointer;
+}
+
+.input input[type="number"] {
+    padding-left: 1vmin;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.input-radio
+{
+    display: block;
+}
+
+#time {
+    position: absolute;
+    left: 2%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    color: white;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vmin;
+    height: 6vmin;
+    font-size: 2vmin;
+    text-align: center;
+}
